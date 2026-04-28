@@ -12,7 +12,7 @@ import com.klu.servicehubBackend.service.ProfessionalService;
 
 @RestController
 @RequestMapping("/api/professional")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 public class ProfessionalController {
 
     private final ProfessionalService professionalService;

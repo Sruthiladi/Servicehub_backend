@@ -13,7 +13,7 @@ import com.klu.servicehubBackend.service.ServiceService;
 
 @RestController
 @RequestMapping("/api/services")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 public class ServiceController {
 
     @Autowired
